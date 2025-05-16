@@ -39,7 +39,7 @@ if uploaded_file:
         st.image(original_image, use_container_width=True)
 
     with col2:
-        st.subheader("👉 Predicted (Post-Procedure)")
+        st.subheader("👉 Predicted (After)")
         st.image(processed_image, use_container_width=True)
 
     st.markdown("✅ *This simulation smooths skin and enhances softness to represent typical Botox/filler effects.*")
